@@ -32,7 +32,7 @@ Deployed an internet-exposed Windows 10 honeypot in Azure and built an end-to-en
 ---
 
 ### 📊 Splunk SSH Brute-Force Detection Dashboard
-**Status: In Progress** | GitHub Repository (coming this week)
+**Status: Completed** | GitHub Repository (coming this week)
 
 Building an interactive Splunk dashboard to monitor SSH authentication logs in real-time. Dashboard includes failed login attempt visualization, brute-force pattern detection, source IP pivoting, and geographic mapping of attack origins using SPL queries and choropleth visualization. Demonstrates cross-platform SIEM proficiency and reinforces detection logic across different query languages and platforms.
 
@@ -41,7 +41,7 @@ Building an interactive Splunk dashboard to monitor SSH authentication logs in r
 ---
 
 ### 🌐 Cloudflare WAF Monitoring Dashboard
-**Status: Planned (Complete by Wednesday)** | GitHub Repository (coming next week)
+**Status: In progress** | GitHub Repository (coming next week)
 
 Designing a Splunk dashboard to monitor and analyze Cloudflare web traffic logs, focusing on Web Application Firewall (WAF) events. Dashboard will track WAF challenges vs. blocks, HTTP success/error rates, top attacked endpoints, and global client distribution. Ideal for identifying malicious request patterns and detecting web-layer anomalies in real-time.
 
