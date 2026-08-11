@@ -22,6 +22,15 @@ I focus on closing the gap between logging infrastructure and actionable insight
 
 ## Featured Projects
 
+### 🏥 ZENA Healthcare SOC Incident Response Simulation
+**Status: In progress** | [GitHub Repository](https://github.com/nyakioGithendu/zena-healthcare-soc-incident-response)
+
+Senior-level SOC simulation defending a healthcare provider mid-incident: inherited a 275-alert Sentinel backlog misdiagnosed as a patient portal DDoS, validated the SIEM feed, and triaged the full backlog to a 31.3% true-positive rate — surfacing a single unbroken 18-alert attack narrative (phishing → credential compromise → MFA fatigue → lateral movement toward EPR → attempted exfiltration → C2 beaconing) hidden inside the noise. Currently investigating the identity compromise via Entra ID sign-in logs and building a board-ready incident timeline, working toward a MITRE ATT&CK-mapped kill chain and a UK GDPR/ICO-compliant breach response within the 72-hour notification window.
+
+**Key Skills:** Microsoft Sentinel | KQL | Microsoft Entra ID | Defender XDR | MITRE ATT&CK | UK GDPR / ICO Breach Notification | Cross-SIEM Validation (Sentinel vs. Splunk) | Alert Triage at Scale
+
+---
+
 ### 🔴 Azure Honeypot & Microsoft Sentinel Detection Pipeline
 **Status: Completed** | [GitHub Repository](https://github.com/nyakioGithendu/azure-honeypot-sentinel)
 
@@ -97,4 +106,4 @@ Strathmore University | July 2018 - Oct 2022
 
 ---
 
-*Last updated: July 2026*
+*Last updated: August 2026*
