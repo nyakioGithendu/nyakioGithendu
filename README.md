@@ -50,7 +50,7 @@ Building an interactive Splunk dashboard to monitor SSH authentication logs in r
 ---
 
 ### 🌐 Cloudflare WAF Monitoring Dashboard
-**Status: In progress** | GitHub Repository (coming next week)
+**Status: In progress** | GitHub Repository 
 
 Designing a Splunk dashboard to monitor and analyze Cloudflare web traffic logs, focusing on Web Application Firewall (WAF) events. Dashboard will track WAF challenges vs. blocks, HTTP success/error rates, top attacked endpoints, and global client distribution. Ideal for identifying malicious request patterns and detecting web-layer anomalies in real-time.
 
