@@ -40,21 +40,13 @@ Deployed an internet-exposed Windows 10 honeypot in Azure and built an end-to-en
 
 ---
 ### 📊 Splunk SSH Brute-Force Detection Dashboard
-**Status: Completed** | [GitHub Repository](ADD-REPO-URL)
+**Status: Completed** | [GitHub Repository](https://github.com/nyakioGithendu/splunk-ssh-bruteforce-dashboard)
 
 Built an interactive Splunk dashboard to monitor SSH authentication logs in real time. The dashboard includes failed login attempt visualization, brute-force pattern detection, source IP pivoting, and geographic mapping of attack origins using SPL queries and choropleth visualization. Demonstrates cross-platform SIEM proficiency and reinforces detection logic across different query languages and platforms.
 
 **Key Skills:** Splunk | SPL | Log Analysis | Dashboard Design | Threat Visualization
-
 ---
 
-### 🌐 Cloudflare WAF Monitoring Dashboard
-**Status: Completed** | [GitHub Repository](ADD-REPO-URL)
-
-Designed a Splunk dashboard to monitor and analyze Cloudflare web traffic logs, focusing on Web Application Firewall (WAF) events. The dashboard tracks WAF challenges vs. blocks, HTTP success/error rates, top attacked endpoints, and global client distribution, and helps identify malicious request patterns and web-layer anomalies.
-
-**Key Skills:** Splunk | WAF Event Analysis | Web Traffic Monitoring | Cloudflare Log Parsing | Anomaly Detection
----
 
 ## Skills Stack
 
