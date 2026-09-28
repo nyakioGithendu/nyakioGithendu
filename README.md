@@ -10,24 +10,24 @@ I build and deploy cloud-native SIEM detection pipelines that transform raw secu
 
 I am a Cybersecurity Analyst with hands-on experience in:
 
-- **SOC Operations & Monitoring** -Tier-1 alert triage, incident investigation, and escalation using Splunk, QRadar, and ELK Stack
-- **Multi-Platform SIEM Analysis** —Fluent in Splunk (SPL) and Microsoft Sentinel (KQL); designing dashboards for brute-force detection, web traffic anomalies, and WAF event monitoring
-- **Threat Intelligence & Correlation** — Enriching raw logs with geo-IP data, API-driven reputation checks (VirusTotal, AbuseIPDB), and MITRE ATT&CK framework mapping
-- **Cloud-Native Detection Pipelines** — Building end-to-end detection workflows on Azure using Log Analytics, AMA, and Data Collection Rules
-- **Log Enrichment & Visualization** — Transforming log data into meaningful dashboards and attack maps that support incident response workflows
+- **SOC Operations & Incident Response** — Alert triage, investigation, and escalation using Splunk, QRadar, and ELK Stack, plus a simulated senior-level healthcare incident in Microsoft Sentinel and Defender XDR covering triage, identity and malware investigation, ServiceNow incident and change records, and a UK GDPR/ICO breach assessment
+- **Multi-Platform SIEM Analysis** — Fluent in Splunk (SPL) and Microsoft Sentinel (KQL); dashboards for brute-force detection, web traffic anomalies, and WAF events; Entra ID sign-in analysis covering MFA-fatigue and impossible-travel patterns
+- **Threat Hunting & Detection Engineering** — Reconstructing a six-stage kill chain mapped to MITRE ATT&CK; writing KQL analytics rules (impossible travel, encoded PowerShell, C2 beaconing) and a SOAR playbook with a clinical-safety gate, and checking each rule against the source data before trusting it
+- **Malware & Threat Intelligence** — Decoding obfuscated PowerShell (CyberChef), confirming C2 traffic in packet captures (Wireshark) and flow logs, and enriching indicators with VirusTotal, AbuseIPDB, and geo-IP data
+- **Cloud-Native Detection Pipelines** — Building ingestion pipelines on Azure with Log Analytics, Data Collection Rules, and the Logs Ingestion API, and validating feeds for duplicates, missing fields, and timestamp errors before analysis
 
-I focus on closing the gap between logging infrastructure and actionable insights—taking raw endpoint and web traffic logs, enriching them with threat context, and surfacing patterns that reveal attack activity.
+I focus on closing the gap between logging infrastructure and actionable insight: taking raw endpoint, identity, and network logs, validating them, enriching them with threat context, and turning the patterns they reveal into evidence and detections that hold up under scrutiny.
 
 ---
 
 ## Featured Projects
 
 ### 🏥 ZENA Healthcare SOC Incident Response Simulation
-**Status: In progress** | [GitHub Repository](https://github.com/nyakioGithendu/zena-healthcare-soc-incident-response)
+**Status: Completed** | [GitHub Repository](https://github.com/nyakioGithendu/zena-healthcare-soc-incident-response)
 
-Senior-level SOC simulation defending a healthcare provider mid-incident: inherited a 275-alert Sentinel backlog misdiagnosed as a patient portal DDoS, validated the SIEM feed, and triaged the full backlog to a 31.3% true-positive rate,surfacing a single unbroken 18-alert attack narrative (phishing → credential compromise → MFA fatigue → lateral movement toward EPR → attempted exfiltration → C2 beaconing) hidden inside the noise. Currently investigating the identity compromise via Entra ID sign-in logs and building a board-ready incident timeline, working toward a MITRE ATT&CK-mapped kill chain and a UK GDPR/ICO-compliant breach response within the 72-hour notification window.
+Senior-level SOC simulation for a fictional healthcare provider. Triaged a 275-alert Sentinel backlog and found that the assumed portal DDoS was internal load-testing traffic, while an 18-alert credential-compromise kill chain sat underneath. Investigated MFA fatigue and a service-account privilege escalation in Entra ID logs, decoded the PowerShell payload, confirmed C2 across packet and flow data, mapped the intrusion to MITRE ATT&CK, wrote KQL detection rules and a SOAR playbook, and prepared the ServiceNow incident, a risk-ranked remediation plan, and an ICO breach assessment.
 
-**Key Skills:** Microsoft Sentinel | KQL | Microsoft Entra ID | Defender XDR | MITRE ATT&CK | UK GDPR / ICO Breach Notification | Cross-SIEM Validation (Sentinel vs. Splunk) | Alert Triage at Scale
+**Key Skills:** Microsoft Sentinel | KQL | Entra ID | Defender XDR | MITRE ATT&CK | Detection Engineering | SOAR Design | ServiceNow | UK GDPR / ICO
 
 ---
 
@@ -39,38 +39,36 @@ Deployed an internet-exposed Windows 10 honeypot in Azure and built an end-to-en
 **Key Skills:** Azure Cloud | Log Analytics Workspace | KQL | Sentinel Watchlists | Threat Intelligence Correlation | Geo-IP Analysis
 
 ---
-
 ### 📊 Splunk SSH Brute-Force Detection Dashboard
-**Status: Completed** | GitHub Repository (coming this week)
+**Status: Completed** | [GitHub Repository](ADD-REPO-URL)
 
-Building an interactive Splunk dashboard to monitor SSH authentication logs in real-time. Dashboard includes failed login attempt visualization, brute-force pattern detection, source IP pivoting, and geographic mapping of attack origins using SPL queries and choropleth visualization. Demonstrates cross-platform SIEM proficiency and reinforces detection logic across different query languages and platforms.
+Built an interactive Splunk dashboard to monitor SSH authentication logs in real time. The dashboard includes failed login attempt visualization, brute-force pattern detection, source IP pivoting, and geographic mapping of attack origins using SPL queries and choropleth visualization. Demonstrates cross-platform SIEM proficiency and reinforces detection logic across different query languages and platforms.
 
 **Key Skills:** Splunk | SPL | Log Analysis | Dashboard Design | Threat Visualization
 
 ---
 
 ### 🌐 Cloudflare WAF Monitoring Dashboard
-**Status: In progress** | GitHub Repository 
+**Status: Completed** | [GitHub Repository](ADD-REPO-URL)
 
-Designing a Splunk dashboard to monitor and analyze Cloudflare web traffic logs, focusing on Web Application Firewall (WAF) events. Dashboard will track WAF challenges vs. blocks, HTTP success/error rates, top attacked endpoints, and global client distribution. Ideal for identifying malicious request patterns and detecting web-layer anomalies in real-time.
+Designed a Splunk dashboard to monitor and analyze Cloudflare web traffic logs, focusing on Web Application Firewall (WAF) events. The dashboard tracks WAF challenges vs. blocks, HTTP success/error rates, top attacked endpoints, and global client distribution, and helps identify malicious request patterns and web-layer anomalies.
 
 **Key Skills:** Splunk | WAF Event Analysis | Web Traffic Monitoring | Cloudflare Log Parsing | Anomaly Detection
-
 ---
 
 ## Skills Stack
 
 **SIEM & Threat Detection**  
-Splunk | Microsoft Sentinel | Splunk Search Processing Language (SPL) | Kusto Query Language (KQL) | Log Analytics Workspace | Sentinel Watchlists & Workbooks
+Splunk | Microsoft Sentinel | Microsoft Defender XDR | Microsoft Entra ID | Splunk Search Processing Language (SPL) | Kusto Query Language (KQL) | KQL Analytics Rules | Log Analytics Workspace | Sentinel Watchlists & Workbooks
 
 **Cloud & Infrastructure**  
-Azure Cloud | Azure Monitor Agent (AMA) | Data Collection Rules (DCR) | Log Analytics
+Azure Cloud | Azure Monitor Agent (AMA) | Data Collection Rules (DCR) | Logs Ingestion API | Log Analytics
 
 **Threat Intelligence & Response**  
-VirusTotal API | AbuseIPDB API | MITRE ATT&CK Framework | Geo-IP Analysis | Web Application Firewall (WAF) Monitoring | Cloudflare Log Analysis | Alert Triage | Incident Investigation
+VirusTotal API | AbuseIPDB API | MITRE ATT&CK Framework | Threat Hunting | Detection Engineering | SOAR Playbook Design | ServiceNow | CyberChef | Wireshark | Geo-IP Analysis | Web Application Firewall (WAF) Monitoring | Cloudflare Log Analysis | Alert Triage | Incident Investigation
 
 **Programming & Automation**  
-Python | REST APIs | Git
+Python | PowerShell | REST APIs | Git
 
 **Tools & Platforms**  
 GitHub | Jupyter | VS Code
@@ -94,6 +92,7 @@ Strathmore University | July 2018 - Oct 2022
 
 **🎯 SOC Analyst** – Real-time monitoring, alert triage, and incident investigation  
 **🎯 Cybersecurity Analyst** – Detection engineering and threat correlation  
+**🎯 Detection Engineer / Threat Hunter** – KQL analytics rules, ATT&CK-mapped hunting, and SOAR design  
 **🎯 SIEM Engineer** – Pipeline design, query optimization, and dashboard development  
 
 ---
@@ -106,4 +105,4 @@ Strathmore University | July 2018 - Oct 2022
 
 ---
 
-*Last updated: August 2026*
+*Last updated: September 2026*
