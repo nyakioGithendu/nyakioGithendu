@@ -22,14 +22,6 @@ I focus on closing the gap between logging infrastructure and actionable insight
 
 ## Featured Projects
 
-### 🏥 ZENA Healthcare SOC Incident Response Simulation
-**Status: Completed** | [GitHub Repository](https://github.com/nyakioGithendu/zena-healthcare-soc-incident-response)
-
-Senior-level SOC simulation for a fictional healthcare provider. Triaged a 275-alert Sentinel backlog and found that the assumed portal DDoS was internal load-testing traffic, while an 18-alert credential-compromise kill chain sat underneath. Investigated MFA fatigue and a service-account privilege escalation in Entra ID logs, decoded the PowerShell payload, confirmed C2 across packet and flow data, mapped the intrusion to MITRE ATT&CK, wrote KQL detection rules and a SOAR playbook, and prepared the ServiceNow incident, a risk-ranked remediation plan, and an ICO breach assessment.
-
-**Key Skills:** Microsoft Sentinel | KQL | Entra ID | Defender XDR | MITRE ATT&CK | Detection Engineering | SOAR Design | ServiceNow | UK GDPR / ICO
-
----
 
 ### 🔴 Azure Honeypot & Microsoft Sentinel Detection Pipeline
 **Status: Completed** | [GitHub Repository](https://github.com/nyakioGithendu/azure-honeypot-sentinel)
